@@ -14,7 +14,7 @@
         "technologies" : ["HTML" , "CSS" , "Javascript" , "Ajax" , "Json"],
         "features" : ["Pure Vanila Javascript used" , "No Library for Css used" , "Fast syncronization between messages"],
         "details" : "This is my responsive portfolio website made with HTML,CSS,Javascript.For CSS, no library used and I have used SASS for CSS." ,
-        "gitlink" : "https://github.com/RahulDey1998" ,
+        "gitlink" : "https://github.com/RahulDey1998/rahuldey1998.github.io" ,
         "liveurl" : "https://RahulDey1998.github.io"
     } ,
     {

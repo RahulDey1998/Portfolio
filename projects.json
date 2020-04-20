@@ -1,0 +1,92 @@
+[
+    {
+        "id" : "flexbox" ,
+        "name" : "Flex Box Design Project" ,
+        "technologies" : ["HTML" , "CSS" , "JQuery"],
+        "features" : ["Responsive design" ,"Css Flexbox used" , "Jquery scrolling effect"],
+        "details" : "This is a Front design of a Website with HTML,CSS,Jquery , For CSS, flexbox is used." ,
+        "gitlink" : "https://github.com/RahulDey1998/FlexBox---UI-Project" ,
+        "liveurl" : "https://rahuldey1998.github.io/FlexBox---UI-Project/"
+    } ,
+    {
+        "id" : "portfolio" ,
+        "name" : "My Portfolio" ,
+        "technologies" : ["HTML" , "CSS" , "Javascript" , "Ajax" , "Json"],
+        "features" : ["Pure Vanila Javascript used" , "No Library for Css used" , "Fast syncronization between messages"],
+        "details" : "This is my responsive portfolio website made with HTML,CSS,Javascript.For CSS, no library used and I have used SASS for CSS." ,
+        "gitlink" : "https://github.com/RahulDey1998" ,
+        "liveurl" : "https://RahulDey1998.github.io"
+    } ,
+    {
+        "id" : "weather" ,
+        "name" : "Weather App" ,
+        "technologies" : ["HTML" , "CSS" , "Javascript" , "Ajax"],
+        "features" : ["Live Weather for all the cities" , "Forecast updates with icons" , "Correct data from Accuweather App" , "Local storage for last city searched"],
+        "details" : "This is a weather app made with HTML,CSS,Javascript and along with ajax call to Accuweather API for the weather data." ,
+        "gitlink" : "https://github.com/RahulDey1998" ,
+        "liveurl" : "https://RahulDey1998.github.io"
+    },
+    {
+        "id" : "livechat" ,
+        "name" : "Chatting App" ,
+        "technologies" : ["HTML" , "CSS" , "Javascript" , "Firebase"],
+        "features" : ["Live chatting around the globe" , "Real Time updates" , "No server, Only cloud database used" , "faster syncronization"],
+        "details" : "This is a live chatting app made with HTML,CSS,Javascript and cloud database Firebase." ,
+        "gitlink" : "https://rahuldey1998.github.io/live_chat/" ,
+        "liveurl" : "https://rahuldey1998.github.io/live_chat/"
+    },
+    {
+        "id" : "livechat" ,
+        "name" : "Chatting App" ,
+        "technologies" : ["HTML" , "CSS" , "Javascript" , "Firebase"],
+        "features" : ["Live chatting around the globe" , "Real Time updates" , "No server, Only cloud database used" , "faster syncronization"],
+        "details" : "This is a live chatting app made with HTML,CSS,Javascript and cloud database Firebase." ,
+        "gitlink" : "https://rahuldey1998.github.io/live_chat/" ,
+        "liveurl" : "https://rahuldey1998.github.io/live_chat/"
+    },
+    {
+        "id" : "presentation" ,
+        "name" : "Presentation App" ,
+        "technologies" : ["HTML" , "CSS" , "JQuery"],
+        "features" : ["UI Presentation with HTML, Css" , "Scrolling effect" , "Animated text effects"],
+        "details" : "This is a Presentation app made with HTML,CSS,JQuery with Css text effects and jquery slide animation." ,
+        "gitlink" : "https://github.com/RahulDey1998/Presentation-UI" ,
+        "liveurl" : "https://rahuldey1998.github.io/Presentation-UI/"
+    },
+    {
+        "id" : "quiz" ,
+        "name" : "Quiz App" ,
+        "technologies" : ["HTML" , "CSS" , "Bootstrap" , "Javascript"],
+        "features" : ["Interactive Quiz Dashboard" , "Animation on result display"],
+        "details" : "This is a Quiz app made with HTML,CSS,Javascript with Final Marks text effects using Javscript." ,
+        "gitlink" : "https://github.com/RahulDey1998/Interactive-Quiz" ,
+        "liveurl" : "https://rahuldey1998.github.io/Interactive-Quiz/"
+    },
+    {
+        "id" : "timeline" ,
+        "name" : "TimeLine Resume" ,
+        "technologies" : ["HTML" , "CSS" , "Javascript"],
+        "features" : ["Responsive Design" , "Great Template to display events in time order" , "Css Animation on scroll"],
+        "details" : "This is a TimeLine Showing app made with HTML,CSS,Javascript with Css animation on scroll. It can be used to descrive different events in a time sequence." ,
+        "gitlink" : "https://github.com/RahulDey1998/Time-Line-Resume" ,
+        "liveurl" : "https://rahuldey1998.github.io/Time-Line-Resume/"
+    },
+    {
+        "id" : "hotel" ,
+        "name" : "Hotel Frontend" ,
+        "technologies" : ["HTML" , "CSS" , "Javascript"],
+        "features" : ["Responsive Design" , "Great Template for Hotel Frontend" ],
+        "details" : "This is a Hotel Frontend app made with HTML,CSS,Javascript. It can be used for template for a Hotel Website" ,
+        "gitlink" : "https://github.com/RahulDey1998/Hotel---Frontend" ,
+        "liveurl" : "https://rahuldey1998.github.io/Hotel---Frontend/"
+    },
+    {
+        "id" : "newsgrid" ,
+        "name" : "News Articles" ,
+        "technologies" : ["HTML" , "CSS" , "Javascript"],
+        "features" : ["Responsive Design" , "Css Grid used for Articles" ],
+        "details" : "This is a News Article app made with HTML,CSS,Javascript. It can be used for showing different articles or blogs" ,
+        "gitlink" : "https://github.com/RahulDey1998/Grid---Fronend-Design" ,
+        "liveurl" : "https://rahuldey1998.github.io/Grid---Fronend-Design/"
+    }
+]

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" sizes="32x32" href="img/favicon/f.svg">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>About Me | Rahul Dey</title>
+    <style>
+        body
+        {
+            position: relative;
+            font-family: 'Dosis', sans-serif;
+            overflow: hidden;
+            color : rgba(0,0,0,0.8); 
+        }
+
+
+      
+    </style>
+</head>
+<body>
+
+    
+    <!-- Header -->
+    <header id="header-inner">
+        <div class="container">
+            <nav id="main-nav">
+                <img src="img/My_Image.jpg" id="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="current">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+     <!-- Section A : Info -->
+     <section id="project-a">
+            <div id="project-wrap">
+                    <div class="project-header">
+                        <i class="fas fa-times fa-3x" id="cancel"></i>
+                        <div>
+                            <h1 id="proj-header">My Portfolio Website </h1>
+                            <!-- <div class="bottom-line"></div> -->
+                        </div>
+                    </div>
+                   <div class="project-body py-2 mx-3">
+                       <div>
+                           <p class="lead" id="proj-desc">This is my Portfolio Website made with HTML , CSS , Javascipt and no library used for CSS.</p>
+                       </div>
+                       <div class="links">
+                           <h2>Project Link : </h2>
+                           <div>
+                               <a href="#" class="proj-url" id="repo-url">&nbsp;&nbsp;&nbsp;https://github.com/RahulDey1998/live_chat</a>
+                           </div>
+                       </div>
+                       <div class="links">
+                           <h2>Live URL : </h2>
+                           <div class="proj-url">
+                               <a href="#" class="proj-url" id="live-url">&nbsp;&nbsp;&nbsp;https://rahuldey1998.github.io/live_chat/</a>
+                           </div>
+                       </div>
+                       <div class="project-tech py-1">
+                           <h2>Technologies Used</h2>
+                           <ul id="tech-used">
+                               <!-- <li><i class="fas fa-arrow-right"></i>  HTML</li>
+                               <li><i class="fas fa-arrow-right"></i> CSS</li>
+                               <li><i class="fas fa-arrow-right"></i> Javascipt</li>
+                               <li><i class="fas fa-arrow-right"></i> SASS</li> -->
+                           </ul>
+                       </div>
+                       <div class="project-features py-1">
+                           <h2>Features </h2>
+                           <ul id="proj-features">
+                               <!-- <li><i class="fas fa-arrow-right"></i> Lorem ipsum dolor sit amet consectetur adipisicin</li>
+                               <li><i class="fas fa-arrow-right"></i>Lorem ipsum dolor sit amet consectetur. </li>
+                               <li><i class="fas fa-arrow-right"></i>Lorem ipsum dolor sit amet consectetur.</li>
+                               <li><i class="fas fa-arrow-right"></i>Lorem ipsum dolor sit amet consectetur. </li> -->
+                           </ul>
+                       </div>
+          
+                </div>
+              
+
+            </div>
+    </section>
+   
+
+
+   
+
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; Rahul Dey, 2020, All Rights Reserved</p>
+            <div class="social">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div> 
+    </footer>
+
+    <script>
+     
+        const page = document.querySelector('#project-a');
+        const cancel = document.querySelector('#cancel');
+        cancel.addEventListener('click' , hide);
+        page.addEventListener('click' , e =>
+        {
+             const id = e.target.getAttribute('id');
+             if(id !== null && id === 'project-a')
+             {
+                 hide();
+             }
+        })
+
+
+        function hide()
+        {
+            page.style.display = "none";
+            // popup.classList.add('hide');
+        }
+
+        function showPopUp()
+        {
+            page.style.display = 'block';
+        }
+    </script>
+
+
+    <script src="https://kit.fontawesome.com/d0d8312ff4.js" crossorigin="anonymous"></script>
+    <script src="./js/typewriter.js"></script>
+</body>
+</html>

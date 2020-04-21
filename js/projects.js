@@ -45,6 +45,10 @@ function renderHTML(data)
     projDesc.innerText  = data.details;   
     liveUrl.innerText = data.liveurl;
     repoUrl.innerText = data.gitlink;
+    liveUrl.href = data.liveurl;
+    repoUrl.href = data.gitlink;
+    // liveUrl.getAttribute('href') = data.liveUrl;
+    // repoUrl.getAttribute('href') = data.gitlink;
     
     
     data.technologies.forEach(tech =>

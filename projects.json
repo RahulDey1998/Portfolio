@@ -23,17 +23,8 @@
         "technologies" : ["HTML" , "CSS" , "Javascript" , "Ajax"],
         "features" : ["Live Weather for all the cities" , "Forecast updates with icons" , "Correct data from Accuweather App" , "Local storage for last city searched"],
         "details" : "This is a weather app made with HTML,CSS,Javascript and along with ajax call to Accuweather API for the weather data." ,
-        "gitlink" : "https://github.com/RahulDey1998" ,
-        "liveurl" : "https://RahulDey1998.github.io"
-    },
-    {
-        "id" : "livechat" ,
-        "name" : "Chatting App" ,
-        "technologies" : ["HTML" , "CSS" , "Javascript" , "Firebase"],
-        "features" : ["Live chatting around the globe" , "Real Time updates" , "No server, Only cloud database used" , "faster syncronization"],
-        "details" : "This is a live chatting app made with HTML,CSS,Javascript and cloud database Firebase." ,
-        "gitlink" : "https://rahuldey1998.github.io/live_chat/" ,
-        "liveurl" : "https://rahuldey1998.github.io/live_chat/"
+        "gitlink" : "https://github.com/RahulDey1998/Weather_App" ,
+        "liveurl" : "https://rahuldey1998.github.io/Weather_App/"
     },
     {
         "id" : "livechat" ,

@@ -1028,11 +1028,23 @@ img {
   #project-a #project-wrap {
     width: 95vw;
   }
+  #project-a #project-wrap h1 {
+    font-size: 1.3rem;
+  }
+  #project-a #project-wrap h2 {
+    font-size: 1rem;
+  }
+  #project-a #project-wrap ul li {
+    font-size: 1rem;
+  }
+  #project-a #project-wrap p {
+    font-size: 1rem;
+  }
   #project-a #project-wrap .links {
     display: block;
   }
   #project-a #project-wrap .links .proj-url {
-    font-size: 1.1rem;
+    font-size: .7rem;
   }
   #project-a #project-wrap .project-body * {
     margin-left: 1px;

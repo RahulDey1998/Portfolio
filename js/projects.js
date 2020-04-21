@@ -47,8 +47,7 @@ function renderHTML(data)
     repoUrl.innerText = data.gitlink;
     liveUrl.href = data.liveurl;
     repoUrl.href = data.gitlink;
-    // liveUrl.getAttribute('href') = data.liveUrl;
-    // repoUrl.getAttribute('href') = data.gitlink;
+
     
     
     data.technologies.forEach(tech =>
@@ -79,7 +78,7 @@ projDetailsButtons.forEach( btn =>
         {
             page.style.top = `${window.scrollY}px`;
             pageOverFlowControl(true);
-            hideProjhoverText(true);
+            hideProjhoverText(true); 
             let btnId = e.target.getAttribute('id');
             getData( (data) =>
             {

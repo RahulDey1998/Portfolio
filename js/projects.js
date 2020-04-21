@@ -11,12 +11,12 @@ const liveUrl = document.querySelector('#live-url');
 var techUsed = document.querySelector('#tech-used');
 var features = document.querySelector('#proj-features');
 
-window.addEventListener('scroll' , e =>
-{
-    const scrollTop = window.scrollY;
-    console.log(scrollTop);
-    page.style.top = `${scrollTop}px`;
-});
+// window.addEventListener('scroll' , e =>
+// {
+//     const scrollTop = window.scrollY;
+//     console.log(scrollTop);
+//     page.style.top = `${scrollTop}px`;
+// });
 
 
 
@@ -73,6 +73,7 @@ projDetailsButtons.forEach( btn =>
     {
         btn.addEventListener('click' , e =>
         {
+            page.style.top = `${window.scrollY}px`;
             pageOverFlowControl(true);
             hideProjhoverText(true);
             let btnId = e.target.getAttribute('id');

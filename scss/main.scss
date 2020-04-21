@@ -341,6 +341,7 @@ img
             display: grid;
             grid-template-areas: 
             'bio bio bio' 
+            'header header header'
             'aw1 aw2 aw3';
             grid-gap: 1.2rem;
 
@@ -362,6 +363,11 @@ img
                 padding: 0.8rem;
             }
 
+            .interest-header
+            {
+                grid-area: header;
+            }
+
             .award-1 
             {
                 grid-area: aw1;
@@ -374,6 +380,7 @@ img
             {
                 grid-area: aw3;
             }
+           
 
             .award-1 .fas,
             .award-2 .fas,

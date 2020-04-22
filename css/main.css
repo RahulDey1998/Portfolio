@@ -195,10 +195,12 @@ input[class^='btn-']:hover {
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   display: block;
-  -webkit-transition: -webkit-transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
-  transition: -webkit-transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
-  transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
-  transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
+  -webkit-transition: -webkit-transform 900ms cubic-bezier(0.2, 1, 0.3, 1);
+  transition: -webkit-transform 900ms cubic-bezier(0.2, 1, 0.3, 1);
+  transition: transform 900ms cubic-bezier(0.2, 1, 0.3, 1);
+  transition: transform 900ms cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 900ms cubic-bezier(0.2, 1, 0.3, 1);
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
 }
 
 .item-image::before {
@@ -229,12 +231,12 @@ input[class^='btn-']:hover {
   color: #fff;
   -webkit-transform: translateY(-20%);
           transform: translateY(-20%);
-  -webkit-transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
-  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
-  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
-  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), transform 500ms cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
-  -webkit-transition-delay: 400ms;
-          transition-delay: 400ms;
+  -webkit-transition: opacity 1s cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 1s cubic-bezier(0.2, 1, 0.3, 1);
+  transition: opacity 1s cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 1s cubic-bezier(0.2, 1, 0.3, 1);
+  transition: opacity 1s cubic-bezier(0.2, 1, 0.3, 1), transform 1s cubic-bezier(0.2, 1, 0.3, 1);
+  transition: opacity 1s cubic-bezier(0.2, 1, 0.3, 1), transform 1s cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 1s cubic-bezier(0.2, 1, 0.3, 1);
+  -webkit-transition-delay: 500ms;
+          transition-delay: 500ms;
 }
 
 .item-text-wrap {
@@ -466,10 +468,6 @@ img {
 #home-a .specials .fas, #home-a .specials .fab {
   color: #ffbc00;
   padding-bottom: 0.4rem;
-}
-
-#home-a .specials .fa-java {
-  margin-top: -4rem;
 }
 
 #home-b .stats {
@@ -1084,6 +1082,14 @@ img {
   }
   #home-b .stats div {
     padding: 2rem 0 1rem 0;
+  }
+  #work-a .item-text {
+    -webkit-transition: opacity 1.5s cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 1.5s cubic-bezier(0.2, 1, 0.3, 1);
+    transition: opacity 1.5s cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 1.5s cubic-bezier(0.2, 1, 0.3, 1);
+    transition: opacity 1.5s cubic-bezier(0.2, 1, 0.3, 1), transform 1.5s cubic-bezier(0.2, 1, 0.3, 1);
+    transition: opacity 1.5s cubic-bezier(0.2, 1, 0.3, 1), transform 1.5s cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 1.5s cubic-bezier(0.2, 1, 0.3, 1);
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
   }
   #contact-a .text-fields {
         grid-template-areas: 'name' 'subject' 'email' 'phone' 'message';

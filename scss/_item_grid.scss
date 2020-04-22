@@ -50,7 +50,8 @@
             height: auto;
             transform: translateZ(0);
             display: block;
-            transition: transform 750ms cubic-bezier(0.2 , 1 , 0.3 , 1);
+            transition: transform 900ms cubic-bezier(0.2 , 1 , 0.3 , 1);
+            transition-delay: 1s;;
         }
 
         &-image::before
@@ -83,9 +84,9 @@
             z-index: 3;
             color: #fff;
             transform: translateY(-20%);
-            transition: opacity 500ms cubic-bezier(0.2 , 1 , 0.3 , 1),
-                        transform 500ms cubic-bezier(0.2 , 1 , 0.3 , 1);
-            transition-delay: 400ms;
+            transition: opacity 1s cubic-bezier(0.2 , 1 , 0.3 , 1),
+                        transform 1s cubic-bezier(0.2 , 1 , 0.3 , 1);
+            transition-delay: 500ms;
         }
 
         &-text-wrap 
